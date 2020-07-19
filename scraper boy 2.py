@@ -16,6 +16,7 @@ url1 = 'https://goruchai.com/front/1548'
 url2= '-details-cow-information'
 
 # Iterate for the cow code
+# There are more that 650 items, I just scraped through 58 items
 for i in range(42, 100):
     # String the url together
     urls = url1 + str(i) + url2
